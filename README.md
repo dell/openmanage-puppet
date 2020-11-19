@@ -167,3 +167,12 @@ Feel free to contribute your own vendor or enhancements.
 ## Release Notes/Contributors/Etc. **Optional**
 
 The basis for this work was the excellent library redfish_client
+
+## Support
+This code is provided as-is and currently not officially supported by Dell EMC.
+
+To report problems or provide feedback https://github.com/dell/openmanage-puppet/issues
+
+## License
+
+Copyright Dell EMC

@@ -1,7 +1,3 @@
-# redfish
-
-The README template below provides a starting point with details about what information to include in your README.
-
 ## Description
 
 This module supports Dell & HP implementations of Redfish. The Redfish standard is a suite of specifications that deliver an industry standard protocol providing a RESTful interface for the management of servers, storage, networking, and converged infrastructure.

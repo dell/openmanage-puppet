@@ -1,6 +1,6 @@
 ## Description
 
-This module supports Dell & HP implementations of Redfish. The Redfish standard is a suite of specifications that deliver an industry standard protocol providing a RESTful interface for the management of servers, storage, networking, and converged infrastructure.
+This module supports standards-based implementations of Redfish for out-of-band device management. The Redfish standard is a suite of specifications that deliver an industry standard protocol providing a RESTful interface for the management of servers, storage, networking, and converged infrastructure.
 
 https://en.wikipedia.org/wiki/Redfish_(specification)
 
@@ -151,18 +151,6 @@ puppet device --target node01-idrac -v
 # Get specific resource attribute
 puppet device --target node01-idrac -v --resource redfish_attribute AssetTag
 ```
-
-## Limitations
-
-At the moment, only vendors supported are Dell & HP. 
-
-## Development
-
-Feel free to contribute your own vendor or enhancements.
-
-## Release Notes/Contributors/Etc. **Optional**
-
-The basis for this work was the excellent library redfish_client
 
 ## Support
 This code is provided as-is and currently not officially supported by Dell EMC.

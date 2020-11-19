@@ -34,16 +34,16 @@ To get started with agentless setup, the module must be installed in your puppet
 1. From Puppet Enterprise Web UI, go to Setup >> Inventory
 2. Select network devices and select redfish as the device type
 3. It will ask for: 
-    a. host (example of host is https://IP.ADDRE.SS )
-    b. user
-    c. password
+    1. host (example of host is https://hostname)
+    2. user
+    3. password
 4. Find your node under Inspect >> Nodes and click run puppet
 5. You can now inspect the facts
 6. You can add a classification for this remote node on your site.pp or using profiles and roles as you wish.
 
 #### Proxy Agent **OPTIONAL**
 
-You can also choose to run the values from a proxy agent. This means another existing node can control your host. To get started, look for the manifests/ini.pp for this module for an example:
+You can also choose to run the values from a proxy agent. This means another existing node can control your host. 
 
 1. Copy and modify the code below and classify a node with that information. The details can be hardcoded under site.pp or the information can come from hiera.
 

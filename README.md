@@ -17,12 +17,12 @@ https://en.wikipedia.org/wiki/Redfish_(specification)
 
 ### Installation
 
-* The goal is to publish this to Puppet Forge as an official Dell module. Until that time you can manually install the module for testing.
+* The goal is to publish this to Puppet Forge as an official module. Until that time you can manually install the module for testing.
 * Manual installation:
 ```
 mkdir /etc/puppetlabs/code/environments/production/modules/redfish
-unzip redfish-module-master.zip
-cd redfish-module-master
+unzip openmanage-puppet-main.zip
+cd openmanage-puppet-main
 rsync -av . /etc/puppetlabs/code/environments/production/modules/redfish/
 ```
 

@@ -2,7 +2,7 @@
 
 # Contributing to OpenManage Puppet modules
 
-So you want to contribute to OpenManage Puppet module: Great! Below are some instructions to get you started doing
+Hi there! We're excited to have you as a contributor. Below are some instructions to get you started doing
 that very thing while setting expectations around code quality as well as a few tips for making the
 process as easy as possible. 
 
@@ -47,7 +47,7 @@ process as easy as possible.
 
   - [x] an issue number (if applicable), e.g. "(MODULES-xxxx) This is the first line" 
   
-  - [x] a short description (50 characters is the soft limit, excluding ticket number(s))
+  - [x] a short description (50 characters is the soft limit, excluding issue number(s))
 
 - [x] the body of my commit message:
 
@@ -58,6 +58,11 @@ process as easy as possible.
   - [x] includes motivation for the change, and contrasts its implementation with the previous behavior
 
 ## Submission
+### Things to know prior to submitting the pull request
+
+- All code submissions are done through pull requests
+
+- You must use `git commit --signoff` for any commit to be merged, and agree that usage of --signoff constitutes agreement with the terms of [Developer Certificate of Origin 1.1](./DCO_1_1.md).
 
 ### Pre-requisites
 

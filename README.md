@@ -1,3 +1,15 @@
+# ⛔️ ARCHIVED: OpenManage-Puppet
+
+> **Note**
+> This repository has been archived and is no longer being maintained or updated. 
+> In the near future this repository will be fully deprecated. Please consider using other Redfish integrations, such as [Terraform Redfish Provider](https://github.com/dell/terraform-provider-redfish) and [OpenManage Ansible Collection](https://github.com/dell/dellemc-openmanage-ansible-modules).
+
+## Why was this archived?
+This repository has been archived because our development efforts have shifted to better align with current industry trends and organizational priorities. We are now focusing our resources on strategic initiatives that offer more long-term value for our infrastructure goals.
+
+## Can I still use this?
+Yes! The code is still available under the original license. If you wish to continue development, feel free to fork the repository.
+
 ## Description
 
 This module supports standards-based implementations of Redfish for out-of-band device management. The Redfish standard is a suite of specifications that deliver an industry standard protocol providing a RESTful interface for the management of servers, storage, networking, and converged infrastructure.
@@ -153,7 +165,7 @@ puppet device --target node01-idrac -v --resource redfish_attribute AssetTag
 ```
 
 ## Support
-This code is provided as-is and currently not officially supported by Dell EMC.
+This code is provided as-is and not officially supported by Dell Technologies.
 
 To report problems or provide feedback https://github.com/dell/openmanage-puppet/issues
 
